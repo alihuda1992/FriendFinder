@@ -1,0 +1,25 @@
+{
+  "name": "FriendFinder",
+  "version": "1.0.0",
+  "description": "*An express based application to find you friends based on your answers to survery questions",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alihuda1992/FriendFinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alihuda1992/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/alihuda1992/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.4"
+  }
+}
