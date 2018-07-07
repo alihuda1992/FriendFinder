@@ -10,11 +10,6 @@ app.use(bodyParser.json());
 
 
 
-
-
-
-
-
 // Get route to /survey which should display survey page
 app.get('/survey', function(req, res) {
   res.sendFile('survey.html', { root: path.join(__dirname, '../friendfinder/app/public') });
