@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,9 @@
   },
   "homepage": "https://github.com/alihuda1992/FriendFinder#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.3",
-    "nodemon": "^1.17.4"
+    "nodemon": "^1.17.4",
+    "path": "^0.12.7"
   }
 }
